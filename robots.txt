@@ -2,26 +2,28 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://vex-3.github.io/sitemap.xml
+Sitemap: https://whopper-clicker.github.io/sitemap.xml
 
 # Disallow admin or private areas (if any)
 Disallow: /admin/
 Disallow: /private/
 
 # Allow all game directories
-Allow: /ovo1/
-Allow: /ovo2/
-Allow: /vex3/
-Allow: /vex4/
-Allow: /vex5/
-Allow: /vex6/
-Allow: /vex7/
-Allow: /vex-8/
-Allow: /vex-9/
-Allow: /vex-3-xmas/
-Allow: /vex-x3m/
-Allow: /vex-x3m-2/
-Allow: /vex-hyper-dash/
+Allow: /cookie-clicker/
+Allow: /capybara-clicker/
+Allow: /capybara-coin-master/
+Allow: /chicken-banana-quest/
+Allow: /chill-clicker/
+Allow: /chill-girl-clicker/
+Allow: /galaxy-clicker/
+Allow: /italian-brainrot-baby-clicker/
+Allow: /legend-of-fireball/
+Allow: /spacebar-clicker-main/
+Allow: /super-sprunki-clicker/
+Allow: /tap-car/
+Allow: /troll-the-teacher/
+Allow: /trump-clicker/
+Allow: /ytube-clicker/
 
 # Allow CSS and JS files
 Allow: /css/

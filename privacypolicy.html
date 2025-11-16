@@ -2,19 +2,19 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Privacy Policy | Vex 3</title>
+    <title>Privacy Policy | Whopper Clicker</title>
     <meta
       name="description"
-      content="Privacy Policy for Vex 3 - How we collect, use and protect your information"
+      content="Privacy Policy for Whopper Clicker - How we collect, use and protect your information"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" type="image/png" href="/3.png" />
+    <link rel="icon" type="image/png" href="/W.png" />
     <style>
       :root {
-        --neon-primary: #00d4ff; /* Cyan */
-        --neon-secondary: #ff6b35; /* Orange */
-        --dark-bg: #0a0a0a;
-        --card-bg: #151515;
+        --neon-primary: #FF6B35; /* Orange-Red */
+        --neon-secondary: #FFD700; /* Gold */
+        --dark-bg: #1a0f0a;
+        --card-bg: #2a1f15;
         --gradient: linear-gradient(
           45deg,
           var(--neon-primary),
@@ -32,7 +32,7 @@
       }
 
       .navbar {
-        background: rgba(0, 0, 0, 0.95);
+        background: rgba(26, 15, 10, 0.95);
         backdrop-filter: blur(10px);
         border-bottom: 1px solid var(--neon-primary);
         position: fixed;
@@ -122,12 +122,40 @@
       }
 
       .footer {
-        text-align: center;
-        padding: 20px;
         background: var(--gradient);
+        padding: 40px 5%;
         margin-top: 50px;
         color: white;
-        border-radius: 10px;
+      }
+
+      .footer-content {
+        max-width: 1400px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+      }
+
+      .footer-links {
+        display: flex;
+        gap: 20px;
+      }
+
+      .footer-links a {
+        color: white;
+        text-decoration: none;
+        padding: 8px 20px;
+        border-radius: 25px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        transition: all 0.3s ease;
+      }
+
+      .footer-links a:hover {
+        background: rgba(255, 255, 255, 0.1);
+        border-color: white;
+        transform: translateY(-3px);
       }
 
       @media (max-width: 768px) {
@@ -138,6 +166,16 @@
         h1 {
           font-size: 2em;
         }
+
+        .footer-content {
+          flex-direction: column;
+          text-align: center;
+        }
+
+        .footer-links {
+          justify-content: center;
+          flex-wrap: wrap;
+        }
       }
     </style>
   </head>
@@ -145,7 +183,7 @@
     <nav class="navbar">
       <div class="nav-content">
         <div class="logo">
-          <a href="/index.html">VEX 3</a>
+          <a href="/index.html">WHOPPER CLICKER</a>
         </div>
       </div>
     </nav>
@@ -213,13 +251,20 @@
         <h2>Contact Information</h2>
         <p>
           For privacy-related inquiries or concerns, please contact our privacy
-          team at: privacy@website.com
+          team at: privacy@whopperclicker.com
         </p>
       </div>
-
-      <footer class="footer">
-        <p>© 2025 Vex 3. All Rights Reserved.</p>
-      </footer>
     </div>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <p>© 2025 Whopper Clicker. All Rights Reserved.</p>
+        <div class="footer-links">
+          <a href="/termsofuse.html">Terms of Service</a>
+          <a href="/privacypolicy.html">Privacy Policy</a>
+          <a href="/contact.html">Contact Us</a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
