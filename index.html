@@ -1,1 +1,921 @@
-123
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="robots"
+      content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    />
+    <meta name="googlebot" content="index, follow" />
+
+    <!-- Performance: Preconnect to external domains -->
+    <link rel="preconnect" href="https://www.youtube-nocookie.com" />
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+
+    <!-- Primary Meta Tags -->
+    <title>Whopper Clicker | Play Whopper Clicker Game Online</title>
+    <meta
+      name="title"
+      content="Whopper Clicker | Play Whopper Clicker Game Online"
+    />
+    <meta
+      name="description"
+      content="🍔 Play Whopper Clicker game online! Experience the ultimate clicker adventure with Whopper Clicker. Click, upgrade, and build your burger empire in this exciting game. No download needed!"
+    />
+    <meta
+      name="keywords"
+      content="whopper clicker, whopper clicker unblocked, play whopper clicker, whopper clicker online"
+    />
+    <meta name="author" content="Whopper Clicker" />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://whopper-clicker.github.io/" />
+    <link
+      rel="sitemap"
+      type="application/xml"
+      href="https://whopper-clicker.github.io/sitemap.xml"
+    />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="./W.png" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://whopper-clicker.github.io/" />
+    <meta
+      property="og:title"
+      content="Whopper Clicker | Play Whopper Clicker Game Online"
+    />
+    <meta
+      property="og:description"
+      content="Play Whopper Clicker game online! Experience the ultimate clicker adventure. No downloads needed!"
+    />
+    <meta
+      property="og:image"
+      content="https://whopper-clicker.github.io/whopper-clicker.png"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="1200" />
+    <meta property="og:image:alt" content="Whopper Clicker - Clicker Game" />
+    <meta property="og:site_name" content="Whopper Clicker" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://whopper-clicker.github.io/" />
+    <meta
+      name="twitter:title"
+      content="Whopper Clicker | Play Whopper Clicker Game Online"
+    />
+    <meta
+      name="twitter:description"
+      content="Play Whopper Clicker game online! Experience the ultimate clicker adventure."
+    />
+    <meta
+      name="twitter:image"
+      content="https://whopper-clicker.github.io/whopper-clicker.png"
+    />
+    <meta name="twitter:image:alt" content="Whopper Clicker - Clicker Game" />
+    <!-- Structured Data for SEO -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Whopper Clicker",
+        "url": "https://whopper-clicker.github.io/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://whopper-clicker.github.io/whopper-clicker.png",
+          "width": 1200,
+          "height": 1200
+        },
+        "description": "Play Whopper Clicker game online. Experience the ultimate clicker adventure with Whopper Clicker.",
+        "sameAs": []
+      }
+    </script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Whopper Clicker",
+        "alternateName": "Whopper Clicker Game",
+        "description": "Play Whopper Clicker game online! Experience the ultimate clicker adventure with upgrades and exciting gameplay.",
+        "url": "https://whopper-clicker.github.io/",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://whopper-clicker.github.io/?search={search_term_string}",
+          "query-input": "required name=search_term_string"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Whopper Clicker",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://whopper-clicker.github.io/whopper-clicker.png"
+          }
+        },
+        "inLanguage": "en-US"
+      }
+    </script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "VideoGame",
+        "name": "Whopper Clicker",
+        "description": "Play Whopper Clicker game online. Experience the ultimate clicker adventure with upgrades and achievements.",
+        "url": "https://whopper-clicker.github.io/",
+        "image": "https://whopper-clicker.github.io/whopper-clicker.png",
+        "gamePlatform": "Web Browser",
+        "applicationCategory": "Game",
+        "operatingSystem": "Any"
+      }
+    </script>
+
+    <!-- Critical CSS Inline -->
+    <style>
+      /* Critical above-the-fold styles */
+      :root {
+        --neon-primary: #ff6b35;
+        --neon-secondary: #ffd700;
+        --dark-bg: #1a0f0a;
+        --card-bg: #2a1f15;
+        --gradient: linear-gradient(
+          45deg,
+          var(--neon-primary),
+          var(--neon-secondary)
+        );
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+      }
+      body {
+        background: var(--dark-bg);
+        color: #fff;
+        overflow-x: hidden;
+      }
+      .navbar {
+        background: rgba(0, 0, 0, 0.95);
+        backdrop-filter: blur(10px);
+        border-bottom: 1px solid var(--neon-primary);
+        position: fixed;
+        width: 100%;
+        z-index: 1000;
+        padding: 1rem 5%;
+      }
+      .nav-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1400px;
+        margin: 0 auto;
+      }
+      .logo a {
+        text-decoration: none;
+        background: var(--gradient);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 2rem;
+        font-weight: 700;
+      }
+      .hero {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        padding-top: 80px;
+        background: linear-gradient(
+          135deg,
+          #2a1f0f 0%,
+          #3d2817 50%,
+          #2a1f0f 100%
+        );
+      }
+      .hero-title {
+        font-size: 4rem;
+        font-weight: 800;
+        margin-bottom: 1rem;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+      }
+      @media (max-width: 768px) {
+        .hero-title {
+          font-size: 2.5rem;
+        }
+        .logo a {
+          font-size: 1.5rem;
+        }
+      }
+    </style>
+
+    <!-- External CSS - Async loading for better performance -->
+    <link rel="preload" href="/css/styles.css" as="style" />
+    <link
+      rel="stylesheet"
+      href="/css/styles.css"
+      media="print"
+      onload="this.media='all'"
+    />
+    <noscript><link rel="stylesheet" href="/css/styles.css" /></noscript>
+
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-5CL70M6869"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-5CL70M6869");
+    </script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-content">
+        <div class="logo">
+          <a href="/index.html">WHOPPER CLICKER</a>
+        </div>
+        <div class="nav-links">
+          <!-- Add navigation links here -->
+        </div>
+      </div>
+    </nav>
+
+    <!-- Breadcrumb Navigation -->
+    <nav aria-label="breadcrumb" class="breadcrumb-nav">
+      <div class="breadcrumb-container">
+        <ol>
+          <li><a href="/">Home</a></li>
+          <li>›</li>
+          <li>Whopper Clicker Game</li>
+        </ol>
+      </div>
+    </nav>
+
+    <main>
+      <section class="hero">
+        <div class="hero-content">
+          <h1 class="hero-title">Whopper Clicker</h1>
+          <p class="hero-subtitle">
+            <span class="highlight">Whopper Clicker</span> is an exciting
+            clicker game where you build your burger empire! Click, upgrade, and
+            unlock new features in this thrilling adventure. Play
+            <strong>Whopper Clicker</strong> online directly in your browser -
+            no downloads needed!
+          </p>
+          <div class="hero-description">
+            <div class="features">
+              <h2>Why Play Whopper Clicker?</h2>
+              <ul>
+                <li>
+                  <strong>Unblocked Access:</strong> Play Whopper Clicker
+                  anywhere, anytime without restrictions
+                </li>
+                <li>
+                  <strong>No Downloads:</strong> Whopper Clicker runs directly
+                  in your browser
+                </li>
+                <li>
+                  <strong>Addictive Gameplay:</strong> Test your clicking skills
+                  with exciting upgrades and achievements
+                </li>
+                <li>
+                  <strong>Free Forever:</strong> No hidden costs - Whopper
+                  Clicker is completely free!
+                </li>
+              </ul>
+            </div>
+            <div class="video-container">
+              <div class="video-wrapper">
+                <iframe
+                  id="youtube-embed"
+                  width="560"
+                  height="315"
+                  data-src="https://www.youtube-nocookie.com/embed/O69iTpwK0vs?enablejsapi=1"
+                  title="Whopper Clicker Game - YouTube Video"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                  loading="lazy"
+                  fetchpriority="low"
+                ></iframe>
+              </div>
+            </div>
+            <div class="cta-section">
+              <p>
+                Experience the ultimate clicker adventure with
+                <strong>Whopper Clicker</strong>! Click your way to success,
+                unlock upgrades, and build your burger empire. Start playing
+                <strong>Whopper Clicker</strong> now - completely free!
+              </p>
+              <div class="keywords-section">
+                <span class="keyword-tag">whopper clicker</span>
+                <span class="keyword-tag">whopper clicker unblocked</span>
+                <span class="keyword-tag">Play Whopper Clicker</span>
+                <span class="keyword-tag">Whopper Clicker Online</span>
+              </div>
+              <a href="/" class="play-btn">Play Whopper Clicker</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="games" class="games-section">
+        <h2 class="section-title">Play Whopper Clicker</h2>
+
+        <div class="intro-section">
+          <p class="intro-text">
+            Welcome to <strong>Whopper Clicker</strong>! Experience the ultimate
+            clicker adventure where you build your burger empire through
+            clicking and upgrading. Click, upgrade, and unlock new features in
+            this exciting game. <strong>Whopper Clicker</strong> is completely
+            free and playable directly in your browser - no downloads needed!
+          </p>
+
+          <h3 class="intro-title">Why Play Whopper Clicker?</h3>
+
+          <p class="intro-description">
+            <strong>Whopper Clicker</strong> is an engaging clicker game that
+            tests your clicking skills and strategic thinking. Click to earn
+            points, unlock upgrades, and build your burger empire. The game can
+            be played anywhere, anytime, without any restrictions - perfect for
+            quick gaming sessions!
+          </p>
+
+          <div class="features-grid">
+            <div class="feature-item">
+              <h4>🍔 Addictive Gameplay</h4>
+              <p>
+                Test your clicking skills with exciting upgrades and
+                achievements in Whopper Clicker.
+              </p>
+            </div>
+            <div class="feature-item">
+              <h4>⚡ Fast Progression</h4>
+              <p>
+                Enjoy quick progression and satisfying upgrades in Whopper
+                Clicker.
+              </p>
+            </div>
+            <div class="feature-item">
+              <h4>🎮 Instant Play</h4>
+              <p>
+                No registration, no downloads. Whopper Clicker loads instantly
+                and plays smoothly in your browser.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Main Game Card -->
+        <div class="games-layout">
+          <div class="games-column">
+            <div class="games-grid">
+              <!-- Cookie Clicker Game Card -->
+              <div
+                class="game-card"
+                itemscope
+                itemtype="https://schema.org/VideoGame"
+              >
+                <img
+                  src="/cookie-clicker/logo.png"
+                  alt="Cookie Clicker - Free Online Clicker Game"
+                  class="game-image"
+                  loading="lazy"
+                  decoding="async"
+                  itemprop="image"
+                />
+                <div class="game-info">
+                  <h3 class="game-title">Cookie Clicker</h3>
+                  <p class="game-desc">
+                    Cookie Clicker is the classic clicker game. Click cookies,
+                    buy upgrades, and build your cookie empire!
+                  </p>
+                  <a href="/cookie-clicker/index.html" class="play-btn"
+                    >Play Now</a
+                  >
+                </div>
+              </div>
+
+              <!-- Capybara Clicker Game Card -->
+              <div
+                class="game-card"
+                itemscope
+                itemtype="https://schema.org/VideoGame"
+              >
+                <img
+                  src="/capybara-clicker/logo.png"
+                  alt="Capybara Clicker - Free Online Clicker Game"
+                  class="game-image"
+                  loading="lazy"
+                  decoding="async"
+                  itemprop="image"
+                />
+                <div class="game-info">
+                  <h3 class="game-title">Capybara Clicker</h3>
+                  <p class="game-desc">
+                    Capybara Clicker lets you click adorable capybaras and build
+                    your capybara collection!
+                  </p>
+                  <a href="/capybara-clicker/index.html" class="play-btn"
+                    >Play Now</a
+                  >
+                </div>
+              </div>
+
+              <!-- Capybara Coin Master Game Card -->
+              <div
+                class="game-card"
+                itemscope
+                itemtype="https://schema.org/VideoGame"
+              >
+                <img
+                  src="/capybara-coin-master/logo.png"
+                  alt="Capybara Coin Master - Free Online Game"
+                  class="game-image"
+                  loading="lazy"
+                  decoding="async"
+                  itemprop="image"
+                />
+                <div class="game-info">
+                  <h3 class="game-title">Capybara Coin Master</h3>
+                  <p class="game-desc">
+                    Capybara Coin Master combines capybaras with coin collecting
+                    fun!
+                  </p>
+                  <a href="/capybara-coin-master/index.html" class="play-btn"
+                    >Play Now</a
+                  >
+                </div>
+              </div>
+
+              <!-- Chicken Banana Quest Game Card -->
+              <div
+                class="game-card"
+                itemscope
+                itemtype="https://schema.org/VideoGame"
+              >
+                <img
+                  src="/chicken-banana-quest/logo.png"
+                  alt="Chicken Banana Quest - Free Online Game"
+                  class="game-image"
+                  loading="lazy"
+                  decoding="async"
+                  itemprop="image"
+                />
+                <div class="game-info">
+                  <h3 class="game-title">Chicken Banana Quest</h3>
+                  <p class="game-desc">
+                    Join the chicken on a banana quest in this fun adventure
+                    game!
+                  </p>
+                  <a href="/chicken-banana-quest/index.html" class="play-btn"
+                    >Play Now</a
+                  >
+                </div>
+              </div>
+
+              <!-- Chill Clicker Game Card -->
+              <div
+                class="game-card"
+                itemscope
+                itemtype="https://schema.org/VideoGame"
+              >
+                <img
+                  src="/chill-clicker/logo.png"
+                  alt="Chill Clicker - Free Online Clicker Game"
+                  class="game-image"
+                  loading="lazy"
+                  decoding="async"
+                  itemprop="image"
+                />
+                <div class="game-info">
+                  <h3 class="game-title">Chill Clicker</h3>
+                  <p class="game-desc">
+                    Chill Clicker offers a relaxing clicker experience with
+                    smooth gameplay.
+                  </p>
+                  <a href="/chill-clicker/index.html" class="play-btn"
+                    >Play Now</a
+                  >
+                </div>
+              </div>
+
+              <!-- Chill Girl Clicker Game Card -->
+              <div
+                class="game-card"
+                itemscope
+                itemtype="https://schema.org/VideoGame"
+              >
+                <img
+                  src="/chill-girl-clicker/logo.png"
+                  alt="Chill Girl Clicker - Free Online Clicker Game"
+                  class="game-image"
+                  loading="lazy"
+                  decoding="async"
+                  itemprop="image"
+                />
+                <div class="game-info">
+                  <h3 class="game-title">Chill Girl Clicker</h3>
+                  <p class="game-desc">
+                    Chill Girl Clicker brings cute characters and relaxing
+                    clicker fun!
+                  </p>
+                  <a href="/chill-girl-clicker/index.html" class="play-btn"
+                    >Play Now</a
+                  >
+                </div>
+              </div>
+
+              <!-- Galaxy Clicker Game Card -->
+              <div
+                class="game-card"
+                itemscope
+                itemtype="https://schema.org/VideoGame"
+              >
+                <img
+                  src="/galaxy-clicker/logo.png"
+                  alt="Galaxy Clicker - Free Online Clicker Game"
+                  class="game-image"
+                  loading="lazy"
+                  decoding="async"
+                  itemprop="image"
+                />
+                <div class="game-info">
+                  <h3 class="game-title">Galaxy Clicker</h3>
+                  <p class="game-desc">
+                    Galaxy Clicker takes you on a space adventure with cosmic
+                    clicking action!
+                  </p>
+                  <a href="/galaxy-clicker/index.html" class="play-btn"
+                    >Play Now</a
+                  >
+                </div>
+              </div>
+
+              <!-- Italian Brainrot Baby Clicker Game Card -->
+              <div
+                class="game-card"
+                itemscope
+                itemtype="https://schema.org/VideoGame"
+              >
+                <img
+                  src="/italian-brainrot-baby-clicker/logo.png"
+                  alt="Italian Brainrot Baby Clicker - Free Online Clicker Game"
+                  class="game-image"
+                  loading="lazy"
+                  decoding="async"
+                  itemprop="image"
+                />
+                <div class="game-info">
+                  <h3 class="game-title">Italian Brainrot Baby Clicker</h3>
+                  <p class="game-desc">
+                    Italian Brainrot Baby Clicker offers hilarious clicking fun!
+                  </p>
+                  <a
+                    href="/italian-brainrot-baby-clicker/index.html"
+                    class="play-btn"
+                    >Play Now</a
+                  >
+                </div>
+              </div>
+
+              <!-- Legend of Fireball Game Card -->
+              <div
+                class="game-card"
+                itemscope
+                itemtype="https://schema.org/VideoGame"
+              >
+                <img
+                  src="/legend-of-fireball/logo.png"
+                  alt="Legend of Fireball - Free Online Game"
+                  class="game-image"
+                  loading="lazy"
+                  decoding="async"
+                  itemprop="image"
+                />
+                <div class="game-info">
+                  <h3 class="game-title">Legend of Fireball</h3>
+                  <p class="game-desc">
+                    Legend of Fireball brings epic adventures and fireball
+                    action!
+                  </p>
+                  <a href="/legend-of-fireball/index.html" class="play-btn"
+                    >Play Now</a
+                  >
+                </div>
+              </div>
+
+              <!-- Spacebar Clicker Game Card -->
+              <div
+                class="game-card"
+                itemscope
+                itemtype="https://schema.org/VideoGame"
+              >
+                <img
+                  src="/spacebar-clicker-main/spacebar-clicker.png"
+                  alt="Spacebar Clicker - Free Online Clicker Game"
+                  class="game-image"
+                  loading="lazy"
+                  decoding="async"
+                  itemprop="image"
+                />
+                <div class="game-info">
+                  <h3 class="game-title">Spacebar Clicker</h3>
+                  <p class="game-desc">
+                    Spacebar Clicker lets you click with the spacebar for
+                    ultimate clicking fun!
+                  </p>
+                  <a href="/spacebar-clicker-main/index.html" class="play-btn"
+                    >Play Now</a
+                  >
+                </div>
+              </div>
+
+              <!-- Super Sprunki Clicker Game Card -->
+              <div
+                class="game-card"
+                itemscope
+                itemtype="https://schema.org/VideoGame"
+              >
+                <img
+                  src="/super-sprunki-clicker/logo.png"
+                  alt="Super Sprunki Clicker - Free Online Clicker Game"
+                  class="game-image"
+                  loading="lazy"
+                  decoding="async"
+                  itemprop="image"
+                />
+                <div class="game-info">
+                  <h3 class="game-title">Super Sprunki Clicker</h3>
+                  <p class="game-desc">
+                    Super Sprunki Clicker offers super fun clicking adventures!
+                  </p>
+                  <a href="/super-sprunki-clicker/index.html" class="play-btn"
+                    >Play Now</a
+                  >
+                </div>
+              </div>
+
+              <!-- Tap Car Game Card -->
+              <div
+                class="game-card"
+                itemscope
+                itemtype="https://schema.org/VideoGame"
+              >
+                <img
+                  src="/tap-car/logo.png"
+                  alt="Tap Car - Free Online Game"
+                  class="game-image"
+                  loading="lazy"
+                  decoding="async"
+                  itemprop="image"
+                />
+                <div class="game-info">
+                  <h3 class="game-title">Tap Car</h3>
+                  <p class="game-desc">
+                    Tap Car lets you tap and drive your way to victory!
+                  </p>
+                  <a href="/tap-car/index.html" class="play-btn">Play Now</a>
+                </div>
+              </div>
+
+              <!-- Troll the Teacher Game Card -->
+              <div
+                class="game-card"
+                itemscope
+                itemtype="https://schema.org/VideoGame"
+              >
+                <img
+                  src="/troll-the-teacher/logo.png"
+                  alt="Troll the Teacher - Free Online Game"
+                  class="game-image"
+                  loading="lazy"
+                  decoding="async"
+                  itemprop="image"
+                />
+                <div class="game-info">
+                  <h3 class="game-title">Troll the Teacher</h3>
+                  <p class="game-desc">
+                    Troll the Teacher offers hilarious school-themed fun!
+                  </p>
+                  <a href="/troll-the-teacher/index.html" class="play-btn"
+                    >Play Now</a
+                  >
+                </div>
+              </div>
+
+              <!-- Trump Clicker Game Card -->
+              <div
+                class="game-card"
+                itemscope
+                itemtype="https://schema.org/VideoGame"
+              >
+                <img
+                  src="/trump-clicker/Trump Clicker.png"
+                  alt="Trump Clicker - Free Online Clicker Game"
+                  class="game-image"
+                  loading="lazy"
+                  decoding="async"
+                  itemprop="image"
+                />
+                <div class="game-info">
+                  <h3 class="game-title">Trump Clicker</h3>
+                  <p class="game-desc">
+                    Trump Clicker brings unique clicking fun with a political
+                    twist!
+                  </p>
+                  <a href="/trump-clicker/index.html" class="play-btn"
+                    >Play Now</a
+                  >
+                </div>
+              </div>
+
+              <!-- YTube Clicker Game Card -->
+              <div
+                class="game-card"
+                itemscope
+                itemtype="https://schema.org/VideoGame"
+              >
+                <img
+                  src="/ytube-clicker/logo.png"
+                  alt="YTube Clicker - Free Online Clicker Game"
+                  class="game-image"
+                  loading="lazy"
+                  decoding="async"
+                  itemprop="image"
+                />
+                <div class="game-info">
+                  <h3 class="game-title">YTube Clicker</h3>
+                  <p class="game-desc">
+                    YTube Clicker combines YouTube themes with addictive
+                    clicking gameplay!
+                  </p>
+                  <a href="/ytube-clicker/index.html" class="play-btn"
+                    >Play Now</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Sidebar Content -->
+          <aside class="sidebar-content">
+            <h3 class="sidebar-title">About Whopper Clicker</h3>
+            <p class="sidebar-text">
+              <strong>Whopper Clicker</strong> is an exciting clicker game that
+              offers addictive gameplay and satisfying upgrades. Play online
+              without any downloads required.
+            </p>
+
+            <!-- Ad Placeholder -->
+            <div class="ad-container">
+              <div class="ad-placeholder" id="sidebar-ad">
+                <!-- Ad content will be inserted here by ads.js -->
+                <div class="ad-label">Advertisement</div>
+              </div>
+            </div>
+
+            <h4 class="sidebar-section-title">Game Features</h4>
+
+            <div class="category-cards">
+              <div class="category-card category-orange">
+                <h5 class="category-title">🍔 Addictive</h5>
+                <p class="category-text">
+                  Click your way to burger empire success.
+                </p>
+              </div>
+
+              <div class="category-card category-blue">
+                <h5 class="category-title">⚡ Fast Progression</h5>
+                <p class="category-text">
+                  Quick upgrades and satisfying progression.
+                </p>
+              </div>
+
+              <div class="category-card category-orange">
+                <h5 class="category-title">🎯 Clicker Fun</h5>
+                <p class="category-text">
+                  Classic clicker gameplay experience.
+                </p>
+              </div>
+
+              <div class="category-card category-blue">
+                <h5 class="category-title">🎮 Free to Play</h5>
+                <p class="category-text">Completely free, no hidden costs.</p>
+              </div>
+            </div>
+
+            <h4 class="sidebar-section-title">Quick FAQs</h4>
+
+            <div class="faq-items">
+              <div class="faq-item">
+                <h5 class="faq-question">Unblocked?</h5>
+                <p class="faq-answer">
+                  Yes! Whopper Clicker works anywhere - school, work, or home.
+                </p>
+              </div>
+
+              <div class="faq-item">
+                <h5 class="faq-question">Account needed?</h5>
+                <p class="faq-answer">
+                  No registration required - play instantly!
+                </p>
+              </div>
+
+              <div class="faq-item">
+                <h5 class="faq-question">Safe to play?</h5>
+                <p class="faq-answer">
+                  100% safe! No data collection, secure browser only.
+                </p>
+              </div>
+            </div>
+
+            <!-- Whopper Clicker Image -->
+            <div style="margin-top: 2rem; text-align: center">
+              <img
+                src="/whopper-clicker.png"
+                alt="Whopper Clicker Game"
+                style="
+                  max-width: 100%;
+                  height: auto;
+                  border-radius: 15px;
+                  box-shadow: 0 8px 32px rgba(255, 107, 53, 0.2);
+                "
+                loading="lazy"
+              />
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <!-- Game Modal -->
+    <div id="gameModal" class="game-modal" onclick="closeGameModal(event)">
+      <div class="game-modal-content" onclick="event.stopPropagation()">
+        <div class="game-modal-header">
+          <h2 class="game-modal-title" id="gameModalTitle">Game Loading...</h2>
+          <div class="modal-actions">
+            <button
+              class="game-modal-fullscreen"
+              onclick="toggleFullscreen()"
+              title="Toggle Fullscreen"
+            >
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"
+                />
+              </svg>
+            </button>
+            <button
+              class="game-modal-close"
+              onclick="closeGameModal(event)"
+              title="Close"
+            >
+              ×
+            </button>
+          </div>
+        </div>
+        <iframe
+          id="gameModalIframe"
+          class="game-modal-iframe"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <p>© 2025 Whopper Clicker. All Rights Reserved.</p>
+        <div class="footer-links">
+          <a href="/termsofuse.html">Terms of Service</a>
+          <a href="/privacypolicy.html">Privacy Policy</a>
+          <a href="/contact.html">Contact Us</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- External JavaScript -->
+    <script src="/js/main.js"></script>
+    <script src="/js/ads.js"></script>
+  </body>
+</html>
